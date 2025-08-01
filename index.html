@@ -3,96 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entenda o movimento anarquista, sua história, princípios e figuras importantes.">
     <title>Anarquismo - Entenda mais sobre o movimento</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #ddd;
+        }
 
-    <!-- Cabeçalho -->
-    <header>
-        <div class="container">
-            <h1>Anarquismo: Entenda o movimento</h1>
-            <nav>
-                <ul>
-                    <li><a href="#oquee">O que é o Anarquismo</a></li>
-                    <li><a href="#historia">História do Anarquismo</a></li>
-                    <li><a href="#principios">Princípios do Anarquismo</a></li>
-                    <li><a href="#anarquistas">Anarquistas Famosos</a></li>
-                    <li><a href="#videos">Vídeos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        /* Cabeçalho */
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            border-bottom: 3px solid #f44336; /* Vermelho para destacar */
+        }
 
-    <!-- Seção Principal -->
-    <main>
-        <!-- O que é o Anarquismo -->
-        <section id="oquee">
-            <h2>O que é o Anarquismo?</h2>
-            <p>O anarquismo é uma filosofia política que propõe a ausência de hierarquias e de instituições coercitivas, como o Estado. A ideia central do anarquismo é a liberdade individual, a igualdade social e a solidariedade entre as pessoas.</p>
-        </section>
+        header .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-        <!-- História do Anarquismo -->
-        <section id="historia">
-            <h2>História do Anarquismo</h2>
-            <p>O anarquismo surgiu no século XIX, com pensadores como Pierre-Joseph Proudhon e Mikhail Bakunin, e teve grande influência na Revolução Russa e em outros movimentos sociais ao redor do mundo.</p>
-        </section>
+        h1 {
+            font-size: 2.5rem;
+            color: #f44336; /* Vermelho */
+            text-transform: uppercase;
+        }
 
-        <!-- Princípios do Anarquismo -->
-        <section id="principios">
-            <h2>Princípios do Anarquismo</h2>
-            <ul>
-                <li><strong>Antiautoritarismo:</strong> Contra qualquer forma de autoridade centralizada.</li>
-                <li><strong>Autogestão:</strong> A ideia de que as comunidades devem ser auto-organizadas.</li>
-                <li><strong>Solidariedade:</strong> Cooperar para construir uma sociedade sem opressão.</li>
-                <li><strong>Liberdade:</strong> Cada pessoa deve ser livre para escolher seu destino, sem interferência externa.</li>
-            </ul>
-        </section>
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
 
-        <!-- Anarquistas Famosos -->
-        <section id="anarquistas">
-            <h2>Anarquistas Famosos</h2>
-            <ul>
-                <li><strong>Pierre-Joseph Proudhon:</strong> Filósofo francês e considerado o primeiro a se declarar anarquista.</li>
-                <li><strong>Mikhail Bakunin:</strong> Revolucionário russo e um dos principais teóricos do anarquismo.</li>
-                <li><strong>Emma Goldman:</strong> Ativista e escritora, defendia a liberdade das mulheres e a educação.</li>
-            </ul>
-        </section>
+        nav a {
+            text-decoration: none;
+            color: #ddd;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
 
-        <!-- Vídeos -->
-        <section id="videos">
-            <h2>Vídeos sobre Anarquismo</h2>
-            <div class="video-container">
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo 1: O que é o Anarquismo?</p>
-                </div>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo 2: A História do Anarquismo</p>
-                </div>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo 3: Anarquistas Famosos</p>
-                </div>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo 4: O Anarquismo no Mundo Contemporâneo</p>
-                </div>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p>Vídeo 5: Anarquismo e a Revolução Social</p>
-                </div>
-            </div>
-        </section>
-    </main>
+        nav a:hover {
+            color: #f44336; /* Efeito hover vermelho */
+        }
 
-    <!-- Rodapé -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Anarquismo. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
+        /* Estilos principais */
+        main {
+            padding: 40px 0;
+            ba
