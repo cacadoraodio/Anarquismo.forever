@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anarquismo - Entenda mais sobre o movimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Anarquismo: Entenda o movimento</h1>
+            <nav>
+                <ul>
+                    <li><a href="#oquee">O que é o Anarquismo</a></li>
+                    <li><a href="#historia">História do Anarquismo</a></li>
+                    <li><a href="#principios">Princípios do Anarquismo</a></li>
+                    <li><a href="#anarquistas">Anarquistas Famosos</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- O que é o Anarquismo -->
+        <section id="oquee">
+            <h2>O que é o Anarquismo?</h2>
+            <p>O anarquismo é uma filosofia política que propõe a ausência de hierarquias e de instituições coercitivas, como o Estado. A ideia central do anarquismo é a liberdade individual, a igualdade social e a solidariedade entre as pessoas.</p>
+        </section>
+
+        <!-- História do Anarquismo -->
+        <section id="historia">
+            <h2>História do Anarquismo</h2>
+            <p>O anarquismo surgiu no século XIX, com pensadores como Pierre-Joseph Proudhon e Mikhail Bakunin, e teve grande influência na Revolução Russa e em outros movimentos sociais ao redor do mundo.</p>
+        </section>
+
+        <!-- Princípios do Anarquismo -->
+        <section id="principios">
+            <h2>Princípios do Anarquismo</h2>
+            <ul>
+                <li><strong>Antiautoritarismo:</strong> Contra qualquer forma de autoridade centralizada.</li>
+                <li><strong>Autogestão:</strong> A ideia de que as comunidades devem ser auto-organizadas.</li>
+                <li><strong>Solidariedade:</strong> Cooperar para construir uma sociedade sem opressão.</li>
+                <li><strong>Liberdade:</strong> Cada pessoa deve ser livre para escolher seu destino, sem interferência externa.</li>
+            </ul>
+        </section>
+
+        <!-- Anarquistas Famosos -->
+        <section id="anarquistas">
+            <h2>Anarquistas Famosos</h2>
+            <ul>
+                <li><strong>Pierre-Joseph Proudhon:</strong> Filósofo francês e considerado o primeiro a se declarar anarquista.</li>
+                <li><strong>Mikhail Bakunin:</strong> Revolucionário russo e um dos principais teóricos do anarquismo.</li>
+                <li><strong>Emma Goldman:</strong> Ativista e escritora, defendia a liberdade das mulheres e a educação.</li>
+            </ul>
+        </section>
+
+        <!-- Vídeos -->
+        <section id="videos">
+            <h2>Vídeos sobre Anarquismo</h2>
+            <div class="video-container">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Vídeo 1: O que é o Anarquismo?</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Vídeo 2: A História do Anarquismo</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Vídeo 3: Anarquistas Famosos</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Vídeo 4: O Anarquismo no Mundo Contemporâneo</p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Vídeo 5: Anarquismo e a Revolução Social</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anarquismo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
